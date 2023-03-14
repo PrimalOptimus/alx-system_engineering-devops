@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | tr ":"  "\action" | wc -l
+export PATH=$PATH:/action
